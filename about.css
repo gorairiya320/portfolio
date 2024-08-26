@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+
+}
+
+.container{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+}
+
+.main-div{
+    width: 30%;
+    height: 100vh;
+    background-color: #20211A;
+    color: white;
+}
+
+.about{
+    width: 70%;
+    height: 100vh;
+    
+}
+
+.me{
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.basic,.edu{
+    padding: 0.4rem;
+    font-size: larger;
+}
+
+.myphoto{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    border: 2px solid yellow;
+    
+}
+img{
+    height: 120px;
+    width: 120px;
+    border: 2px solid yellow;
+}
+
+.education{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+h5{
+    font-size: medium;
+    font-weight: 200;
+    color: yellow;
+    
+}
+
+p{
+    font-size: medium;
+}
+.ed{
+    width: 23%;
+    padding: 0.2rem;
+    height: 8rem;
+    border: 0.01px solid yellow;
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+span{
+    color: yellow;
+}
+
+
+
+.mar{
+   padding: 0.5rem;
+   text-align: center;
+}
+
+.dv{
+    height: 30px;
+    width: 280px;
+    border-radius: 1.5rem;
+    background-color: #a7a7a7;
+}
+
+.dv:hover{
+    opacity: 50%;
+}
+
+.mar2{
+    margin: 0.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
